@@ -4,8 +4,8 @@ export default class MyDocument extends Document {
   render() {
     return (
       // eslint-disable-next-line prettier/prettier
-      <Html lang='en-US'>
-        {/* <Head></Head> */}
+      <Html lang="en-US">
+        <Head />
         <body>
           <Main />
           <NextScript />
